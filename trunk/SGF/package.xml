@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.7.2" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0    http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfJqueryWidgetsPlugin</name>
+ <channel>plugins.symfony-project.org</channel>
+ <summary>Extra form widgets using jQuery.</summary>
+ <description>Extra form widgets using jQuery.</description>
+ <lead>
+  <name>Ahmed El.Hussaini</name>
+  <user>Ahmed.El.Hussaini</user>
+  <email>eng.ahmed.elhussaini@sandbox-ws.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-01-01</date>
+ <time>09:03:20</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.symfony-project.com/license">MIT license</license>
+ <notes>-</notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="b5810923fc2887b8dc34ac403dbd79c5" name="doc/media/banner.css" role="data"/>
+   <file md5sum="3f85ba40b07fc38864b8b768e8e74f85" name="doc/media/stylesheet.css" role="data"/>
+   <file md5sum="c1efa9fd7754c7618bb437dcc693e026" name="doc/symfony/widget/_sfJQueryUtilities.class.php.html" role="data"/>
+   <file md5sum="1c627695913d09571c64fd3efbb04cd9" name="doc/symfony/widget/_sfWidgetFormPropelJQuerySortable.class.php.html" role="data"/>
+   <file md5sum="c96a6d1440a579ff7a243d735b2a23e8" name="doc/symfony/widget/_sfWidgetFormPropelSelectAjax.class.php.html" role="data"/>
+   <file md5sum="c21307670acad6463df25247821d5e23" name="doc/symfony/widget/sfJQueryUtilities.html" role="data"/>
+   <file md5sum="4a304b71814b73470dc84b5bbcfa59f9" name="doc/symfony/widget/sfWidgetFormPropelJQuerySortable.html" role="data"/>
+   <file md5sum="ac1611f24acea22909bbccec82d5d4b0" name="doc/symfony/widget/sfWidgetFormPropelSelectAjax.html" role="data"/>
+   <file md5sum="38e2e1ca1ca4069c6c05a9440f483df2" name="doc/blank.html" role="data"/>
+   <file md5sum="23297d9d50f3e9d7bf2008d4583d5c97" name="doc/classtrees_symfony.html" role="data"/>
+   <file md5sum="25f6ca2d2f114502dcc8c14608bbb1af" name="doc/elementindex_symfony.html" role="data"/>
+   <file md5sum="8aa2d82f89775fe537f9c576b443df00" name="doc/elementindex.html" role="data"/>
+   <file md5sum="b9387e4c30c0bbcae5e4b679ce7a7146" name="doc/errors.html" role="data"/>
+   <file md5sum="7e0443a93d9740b7ec91e581bb3164d4" name="doc/index.html" role="data"/>
+   <file md5sum="4d5640eb7a667e955c642cb4a9bbf620" name="doc/li_symfony.html" role="data"/>
+   <file md5sum="6d829ce3e38ce567dda14a57da3d6d26" name="doc/packages.html" role="data"/>
+   <file md5sum="3779576c141590f33d05902d6af9e2f9" name="lib/sfWidgetFormPropelJQuerySortable.class.php" role="data"/>
+   <file md5sum="fd44aa64c013d46ef312fd402062b2a5" name="lib/sfWidgetFormPropelSelectAjax.class.php" role="data"/>
+   <file md5sum="c7449e291cb53d768325f5db5395075e" name="lib/sfJQueryUtilities.class.php" role="data"/>
+   <file md5sum="a9331828c517ac5d97f93b3cfdbcc9bc" name="web/js/jquery-1.2.6.min.js" role="data"/>
+   <file md5sum="b384d4a51927e216f5cdf5ad887dc9f1" name="web/js/jquery-ui-personalized-1.5.3.packed.js" role="data"/>
+   <file md5sum="a7458f97850ada5408648daeac2ff151" name="README" role="data"/>
+   <file md5sum="da868412c7c9ab1fd5c72ca66cebb5ef" name="LICENSE" role="data"/>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   
+  </required>
+ </dependencies>
+ <phprelease/>
+</package>
