@@ -1,0 +1,36 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           tarifa
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              tarifa
+    plural:                tarifas
+    route_prefix:          tarifa
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _new: {label: Nuevo}
+      fields:  ~
+      list:
+        title: Tarifa Admin
+        batch_actions: {}
+        object_actions:
+          _edit: {label: Editar}
+          _delete: {label: Borrar}
+      filter:
+        class: false
+      form:    ~
+      edit:
+        title: Editar Tarifa "%%descripcion%%"
+        actions:
+          _save: { label: Guardar }
+          _list: { label: Volver }
+      new:
+        title: Nueva Proveedor
+        actions:
+          _save: {label: Guardar}
+          _list: {label: Volver}
