@@ -1,0 +1,207 @@
+# config/schema.yml
+propel:
+  localidad:
+    _attributes: { phpName: Localidad }
+    id: ~
+    nombre: { type: varchar(50), required: true, index: unique }
+    distancia: { type: integer }
+    capital: { type: boolean }
+    ciudadReferencia: { type: boolean }
+
+  zona:
+    _attributes: { phpName: Zona }
+    id: ~
+    descripcion: { type: varchar(50), required: true, index: unique }
+    localidad_id: { type: integer, foreignTable: localidad, foreignReference: id, required: true }
+
+  chofer:
+   _atributes: {phpName: Chofer}
+   id: ~
+   nombre: {type: varchar(100), required:true}
+   DocID: {type: varchar(20), index: unique}
+   domicilio: {type: varchar(100)}
+   libConducir: {type: varchar(100)}
+
+
+  vehicxorden:
+    _atrributes: { phpName: VehicXorden }
+    id: ~
+    idOrden: { type: integer, foreignTable: orden, foreignReference: id  }
+    idVehiculo: { type: integer, foreignTable: vehiculo, foreignReference: id, required: true  }
+    horaDesde: { type: timestamp, required: true }
+    horahasta: { type: timestamp }
+    cantPasajeros: {type: integer}
+    chofer: { type: integer, foreignTable: chofer, foreignReference: id  }
+    proveedor: { type: integer, foreignTable: proveedor, foreignReference: id  }
+
+  cliente:
+    _atrributes: { phpName: Cliente }
+    id: ~
+    nombre : { type: varchar(100), required: true, index: unique }
+    razon_soc: {type: varchar(150)} # chequeamos que la razon social no este vacio si es empresa
+    rut: {type: varchar(150)} # chequeamos que el rut no este vacio si es empresa
+    direccion: {type: varchar(150), required: true }
+    telefono: { type: integer }
+    celular: { type: varchar(20) }
+    mail: {type: varchar(80)}
+    es_empresa: { type: boolean }
+
+# chequeamos que la razon social no este vacio si es empresa
+# chequeamos que el rut no este vacio si es empresa
+  proveedor:
+    _atrributes: { phpName: Proveedor }
+    id: ~
+    nombre : { type: varchar(100), required: true, index: unique }
+    razon_soc: {type: varchar(150)} 
+    rut: {type: varchar(150)} 
+    direccion: {type: varchar(150), required: true }
+    telefono: { type: integer }
+    celular: { type: varchar(20) }
+    mail: {type: varchar(80)}
+    es_empresa: { type: boolean }
+
+  vehiculo:
+    _atrributes: { phpName: Camioneta }
+    id: ~
+    descripcion: { type: varchar(100),required:true }
+    marca: { type: varchar(100), required: true }
+    modelo: {type: varchar(150), required: true }
+    ano: { type: integer, required:true }
+    matricula: {type: varchar(150), required: true, index: unique }
+    capacidad: { type: integer }
+    proveedor: { type: integer, foreignTable: proveedor, foreignReference: id  }
+
+  vehicxorden:
+    _atrributes: { phpName: VehicXorden }
+    id: ~
+    idOrden: { type: integer,required: true}
+    idVehiculo: { type: integer, foreignTable: vehiculo, foreignReference: id, required: true  }
+    horaDesde: { type: timestamp, required: true }
+    horahasta: { type: timestamp }
+    cantPasajeros: {type: integer}
+    chofer: { type: integer, foreignTable: chofer, foreignReference: id  }
+    proveedor: { type: integer, foreignTable: proveedor, foreignReference: id  }
+
+# tablas auxiliares ----------------------------------------------------------
+  moneda:
+    _atrributes: { phpName: moneda }
+    numref: { type: integer }
+    moneda : { type: varchar(100), required: true, index: unique }
+    tipocambio: { type: numeric, size: 20, scale: 2 }
+
+  parametros:
+    _atrributes: { phpName: parametros }
+    id: ~
+    numref: { type: integer }
+    nombre : { type: varchar(40), index: unique }
+    valor : { type: varchar(40) }
+
+# Fin tablas auxiliares ------------------------------------------------------
+  orden:
+    _atrributes: { phpName: Orden }
+    id: ~
+    cliente: { type: integer, foreignTable: cliente, foreignReference: id, required: true }
+    descripcion : { type: varchar(100), required: true, index: unique }
+    fecha_desde : { type: date, required: true }
+    fecha_hasta : { type: date, required: true }
+    contacto : { type: varchar(100), required: true }
+    tel_contacto: { type: integer, required: true }
+    horas : { type: integer }
+    kilometros : { type: integer }
+    importe : { type: numeric, size: 20, scale: 2 }
+    moneda: { type: integer, foreignTable: moneda, foreignReference: id}
+    liquidada: { type: boolean}
+
+  pasajero:
+    _atrributes: { phpName: Pasajero }
+    id: ~
+    nombre : { type: varchar(100), required: true }
+    direccion: {type: varchar(150), required: true }
+    telefono: { type: integer, required: true }
+    mail: {type: varchar(80)}
+    hora: { type: timestamp, required: true }
+    zona_id: { type: integer, foreignTable: zona, foreignReference: id, required: true }
+    vehiculo: { type: integer, foreignTable: vehiculo, foreignReference: id, required: true }
+    orden: { type: integer, foreignTable: orden, foreignReference: id, required: true }
+
+  factura:
+    _atrributes: { phpName: Factura }
+    id: ~
+    num_fac : {type : integer }
+    cliente: { type: integer, foreignTable: cliente, foreignReference: id, required: true }
+    fecha_fact : { type: date, required: true }
+    desc_generica: { type: longvarchar }
+    iva : {type : integer }
+    subtotal :  { type: numeric, size: 20, scale: 2 }
+    total :  { type: numeric, size: 20, scale: 2 }
+    moneda: { type: integer, foreignTable: moneda, foreignReference: id }
+    formapago : { type: varchar(80), required: true }
+    fechaPago : { type: date }
+
+  lineafact:
+    _atrributes: { phpName: LineaFact }
+    factura_id:  { type: integer, foreignTable: factura, foreignReference: id, required: true, primaryKey: true, onDelete: cascade }
+    orden_id: { type: integer, foreignTable: orden, foreignReference: id, required: true, primaryKey: true, onDelete: cascade }
+    descripcion: { type: longvarchar }
+
+  tmpfactura:
+    _atrributes: { phpName: tmpFactura }
+    id: ~
+    num_fac : {type : integer }
+    cliente: { type: integer, foreignTable: cliente, foreignReference: id, required: true }
+    fecha_fact : { type: date, required: true }
+    desc_generica: { type: longvarchar }
+    iva : {type : integer }
+    subtotal :  { type: numeric, size: 20, scale: 2 }
+    total :  { type: numeric, size: 20, scale: 2 }
+    moneda: { type: integer, foreignTable: moneda, foreignReference: id }
+    formapago : { type: varchar(80), required: true }
+    fechaPago : { type: date }
+
+  tmplineafact:
+    _atrributes: { phpName: tmpLineaFact }
+    factura_id:  { type: integer, foreignTable: tmpfactura, foreignReference: id, required: true, primaryKey: true, onDelete: cascade }
+    orden_id: { type: integer, foreignTable: orden, foreignReference: id, required: true, primaryKey: true, onDelete: cascade }
+    descripcion: { type: longvarchar }
+
+  tipoGasto:
+    _attributes: { phpName: TipoGasto }
+    id: ~
+    descripcion: { type: varchar(50), required: true, index: unique }
+
+  gasto:
+    _attributes: { phpName: Gasto }
+    id: ~
+    tipoGasto: { type: integer, foreignTable: tipoGasto, foreignReference: id, required: true }
+    vehiculo: { type: integer, foreignTable: vehiculo, foreignReference: id, required: true }
+    fechaGasto : { type: date, required: true }
+    importe :  { type: numeric, size: 20, scale: 2, required: true }
+
+  tarifa:
+    _atributes: { phpName: Tarifa }
+    id: ~
+    descripcion: { type: varchar(50), required: true, index: unique}
+    valor: { type: numeric, size: 20, scale: 2, required: true }
+
+  sf_guard_user_profile:
+      _attributes: { phpName: sfGuardUserProfile }
+      id:
+      user_id:     { type: integer, foreignTable: sf_guard_user, foreignReference: id, required: true, onDelete: cascade }
+      first_name:  varchar(20)
+      last_name:   varchar(20)
+
+  remito:
+    _attributes: { phpName: Remito }
+    id: ~
+    id_orden: { type: integer, foreignTable: orden, foreignReference: id, required: true }
+    idVehiculo: { type: integer, foreignTable: vehiculo, foreignReference: id, required: true  }
+    fecha : { type: date, required: true }
+    horasTrab : { type: integer }
+    km_ini : { type: double }
+    km_fin : { type: double }
+    moneda: { type: integer, foreignTable: moneda, foreignReference: id }
+    total :  { type: numeric, size: 20, scale: 2, required: true }
+    detalle: { type: varchar(100), required: true }
+    liquidada: { type: boolean}
+    proveedor: { type: integer, foreignTable: proveedor, foreignReference: id  }
+
