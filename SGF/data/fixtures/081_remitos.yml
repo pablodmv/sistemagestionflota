@@ -1,0 +1,47 @@
+## YAML Template.
+
+remito:
+  rem1:
+     id_orden: orden_ORT4
+     idVehiculo: MercRyfVans
+     horasTrab: 10
+     km_ini: 1020
+     km_fin: 1200
+     detalle: Transporte personal
+  rem2:
+     id_orden: orden_Ministerio2
+     idVehiculo: H100AB
+     horasTrab: 3
+     km_ini: 23455
+     km_fin: 23560
+     detalle: Traslado pista atletismo
+  rem5:
+     id_orden: orden_ORT5
+     idVehiculo: MercRyfVans
+     horasTrab: 15
+     km_ini: 1320
+     km_fin: 1410
+     detalle: Transporte personal
+  rem6:
+     id_orden: orden_Ministerio3
+     idVehiculo: H100AB
+     horasTrab: 20
+     km_ini: 23655
+     km_fin: 23790
+     detalle: Traslado urnas
+
+  rem3:
+     id_orden: orden_Hospital1
+     idVehiculo: H100AB
+     horasTrab: 7
+     km_ini: 23690
+     km_fin: 23699
+     detalle: Transporte enfermeria
+
+  rem4:
+     id_orden: orden_Hospital2
+     idVehiculo: H100AB
+     horasTrab: 8
+     km_ini: 23705
+     km_fin: 23750
+     detalle: Transporte reten

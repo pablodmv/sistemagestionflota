@@ -1,0 +1,77 @@
+## YAML Template.
+orden:
+  orden_Hospital1:
+    cliente: Pasteur
+    descripcion : Transporte personas por paro
+    fecha_desde : 2010-08-03
+    fecha_hasta : 2010-08-03
+    contacto : Martin Perez
+    tel_contacto: 099765435
+    
+  orden_Hospital2:
+    cliente: Pasteur
+    descripcion : Transporte personal de seguridad
+    fecha_desde : 2010-08-03
+    fecha_hasta : 2010-08-04
+    contacto : Portero Juan
+    tel_contacto: 099876543
+
+  orden_ORT:
+    cliente: ORT
+    descripcion : Transporte estudiantes para campeonato futbol
+    fecha_desde : 2011-06-13
+    fecha_hasta : 2011-06-13
+    contacto : Julio Rivas
+    tel_contacto: 095678345
+
+  orden_ORT1:
+    cliente: ORT
+    descripcion : Personal seguridad
+    fecha_desde : 2011-09-13
+    fecha_hasta : 2011-09-22
+    contacto : Jazmin
+    tel_contacto: 094376123
+
+  orden_Ministerio1:
+    cliente: MinisterioDef
+    descripcion : Transporte graduados FFAA
+    fecha_desde : 2011-06-13
+    fecha_hasta : 2011-06-13
+    contacto : Tnte Crnel Julio Sosa
+    tel_contacto: 095678345
+
+  orden_Ministerio2:
+    cliente: MinisterioDef
+    descripcion : Traslado tropas
+    fecha_desde : 2010-07-03
+    fecha_hasta : 2010-07-10
+    contacto : Comandante Julio Perez
+    tel_contacto: 094376123
+    liquidada: true
+
+  orden_ORT4:
+    cliente: ORT
+    descripcion : Personal
+    fecha_desde : 2010-07-13
+    fecha_hasta : 2010-07-22
+    contacto : Jazmin
+    tel_contacto: 094376123
+    liquidada: true
+
+  orden_Ministerio3:
+    cliente: MinisterioDef
+    descripcion : Traslado urnas votacion
+    fecha_desde : 2010-05-14
+    fecha_hasta : 2010-05-14
+    contacto : Comandante Julio Perez
+    tel_contacto: 094376123
+    liquidada: true
+
+  orden_ORT5:
+    cliente: ORT
+    descripcion : Personal Docente
+    fecha_desde : 2010-05-13
+    fecha_hasta : 2010-05-22
+    contacto : Jazmin
+    tel_contacto: 094376123
+    liquidada: true

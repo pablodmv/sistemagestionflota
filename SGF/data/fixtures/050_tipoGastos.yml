@@ -1,0 +1,9 @@
+## YAML Template.
+tipoGasto:
+  gasoil:
+    descripcion: Gasoil
+  garage:
+    descripcion: Garage
+  mecanico:
+    descripcion: Mecanico
+  

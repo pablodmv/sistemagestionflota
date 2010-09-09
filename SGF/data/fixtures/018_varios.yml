@@ -1,0 +1,330 @@
+# data/fixtures/010_personas.yml
+localidad:
+  montevideo:
+    nombre: Montevideo
+    distancia: 0
+    capital: true
+    ciudadReferencia: false
+  canelones:
+    nombre: Canelones
+    distancia: 50
+    capital: true
+    ciudadReferencia: false
+  artigas:
+    nombre: Artigas
+    distancia: 601
+    capital: true
+    ciudadReferencia: false
+
+  cerrlargo:
+    nombre: Cerro Largo
+    distancia: 387
+    capital: true
+    ciudadReferencia: false
+
+  colonia:
+    nombre: Colonia
+    distancia: 177
+    capital: true
+    ciudadReferencia: false
+
+  durazno:
+    nombre: Durazno
+    distancia: 183
+    capital: true
+    ciudadReferencia: false
+
+  flores:
+    nombre: Flores
+    distancia: 190
+    capital: true
+    ciudadReferencia: false
+
+  florida:
+    nombre: Florida
+    distancia: 98
+    capital: true
+    ciudadReferencia: false
+
+  lavalleja:
+    nombre: Lavalleja
+    distancia: 122
+    capital: true
+    ciudadReferencia: false
+
+  maldonado:
+    nombre: Maldonado
+    distancia: 134
+    capital: true
+    ciudadReferencia: false
+
+  paysandu:
+    nombre: Paysandu
+    distancia: 378
+    capital: true
+    ciudadReferencia: false
+
+  rnegro:
+    nombre: Rio Negro
+    distancia: 309
+    capital: true
+    ciudadReferencia: false
+
+  rivera:
+    nombre: Rivera
+    distancia: 501
+    capital: true
+    ciudadReferencia: false
+
+  rocha:
+    nombre: Rocha
+    distancia: 210
+    capital: true
+    ciudadReferencia: false
+
+
+  salto:
+    nombre: Salto
+    distancia: 496
+    capital: true
+    ciudadReferencia: false
+
+  sanjose:
+    nombre: San Jose
+    distancia: 93
+    capital: true
+    ciudadReferencia: false
+
+  soriano:
+    nombre: Soriano
+    distancia: 278
+    capital: true
+    ciudadReferencia: false
+
+  tacuarembo:
+    nombre: Tacuarembo
+    distancia: 390
+    capital: true
+    ciudadReferencia: false
+
+  tytres:
+    nombre: Treinta y Tres
+    distancia: 286
+    capital: true
+    ciudadReferencia: false
+
+# data/fixtures/020_zona.yml
+zona:
+  Aguada:
+    descripcion:    Aguada
+    localidad_id: montevideo
+  Atahualpa:
+    descripcion:  Atahualpa
+    localidad_id: montevideo
+  Blanqueada:
+    descripcion:  Blanqueada
+    localidad_id: montevideo
+  BdeCarrasco:
+    descripcion:  Bañados de Carrasco
+    localidad_id: montevideo
+  BLavalleja:
+    descripcion:  Barrio Lavalleja
+    localidad_id: montevideo
+  BarrioSur:
+    descripcion:  Barrio Sur
+    localidad_id: montevideo
+  Belvedere:
+    descripcion:  Belvedere
+    localidad_id: montevideo
+  BOriental:
+    descripcion:  Brazo Oriental
+    localidad_id: montevideo
+  Buceo:
+    descripcion:  Buceo
+    localidad_id: montevideo
+  Capurro:
+    descripcion:  Capurro
+    localidad_id: montevideo
+  BVista:
+    descripcion:  Bella Vista
+    localidad_id: montevideo
+  Carrasco:
+    descripcion:  Carrasco
+    localidad_id: montevideo
+  Casabo:
+    descripcion:  Casabo
+    localidad_id: montevideo
+  Casavalle:
+    descripcion:  Casavalle
+    localidad_id: montevideo
+  Centro:
+    descripcion:  Centro
+    localidad_id: montevideo
+  CdelaVic:
+    descripcion:  Cerrito de la Victoria
+    localidad_id: montevideo
+  CiudadVieja:
+    descripcion:  Ciudad Vieja
+    localidad_id: montevideo
+  Colon :
+    descripcion:  Colon
+    localidad_id: montevideo
+  Comercial:
+    descripcion:  Comercial
+    localidad_id: montevideo
+  Conciliacion:
+    descripcion:  Conciliacion
+    localidad_id: montevideo
+  Cordon:
+    descripcion:  Cordon
+    localidad_id: montevideo
+  FMaroñas:
+    descripcion:  Flor de Maroñas
+    localidad_id: montevideo
+  Ituzaingo:
+    descripcion:  Ituzaingo
+    localidad_id: montevideo
+  JacintoVera:
+    descripcion:  Jacinto Vera
+    localidad_id: montevideo
+  Figurita:
+    descripcion:  La Figurita
+    localidad_id: montevideo
+  JHipodromo:
+    descripcion:  Jardines del Hipodromo
+    localidad_id: montevideo
+  Larrañaga:
+    descripcion:  Larrañaga
+    localidad_id: montevideo
+  Lezica:
+    descripcion:  Lezica
+    localidad_id: montevideo
+  Malvín:
+    descripcion:  Malvín
+    localidad_id: montevideo
+  Manga:
+    descripcion:  Manga
+    localidad_id: montevideo
+  Maroñas:
+    descripcion:  Maroñas
+    localidad_id: montevideo
+  Nuevo París:
+    descripcion:  NuevoParis
+    localidad_id: montevideo
+  Palermo:
+    descripcion:  Palermo
+    localidad_id: montevideo
+  PBatlle:
+    descripcion:  Parque Batlle
+    localidad_id: montevideo
+  ParqueRodo:
+    descripcion:  Parque Rodo
+    localidad_id: montevideo
+  PArena:
+    descripcion:  Paso de la Arena
+    localidad_id: montevideo
+  Peñarol:
+    descripcion:  Peñarol
+    localidad_id: montevideo
+  PiedBlancas:
+    descripcion:  Piedras Blancas
+    localidad_id: montevideo
+  Pocitos:
+    descripcion:  Pocitos
+    localidad_id: montevideo
+  Prado:
+    descripcion:  Prado
+    localidad_id: montevideo
+  PuntaCarretas:
+    descripcion:  Punta Carretas
+    localidad_id: montevideo
+  PuntaRieles:
+    descripcion:  Punta de Rieles
+    localidad_id: montevideo
+  PuntaGorda:
+    descripcion:  Punta Gorda
+    localidad_id: montevideo
+  Reducto:
+    descripcion:  Reducto
+    localidad_id: montevideo
+  Sayago:
+    descripcion:  Sayago
+    localidad_id: montevideo
+  Teja:
+    descripcion:  Teja
+    localidad_id: montevideo
+  TresCruces:
+    descripcion:  Tres Cruces
+    localidad_id: montevideo
+  TresOmbues:
+    descripcion:  TresOmbues
+    localidad_id: montevideo
+  Union:
+    descripcion:  Union
+    localidad_id: montevideo
+  VilladelCerro:
+    descripcion:  Villa del Cerro
+    localidad_id: montevideo
+  VillaEspañola:
+    descripcion:  Villa Española
+    localidad_id: montevideo
+  VillaMuñoz :
+    descripcion:  Villa Muñoz
+    localidad_id: montevideo
+
+    # data/fixtures/040_camioneta.yml
+
+vehiculo:
+ H100Turismar:
+      descripcion: H100 - Turismar
+      marca: Hiunday
+      modelo: H100
+      ano: 2000
+      matricula: SAY6332
+      capacidad: 12
+      proveedor: Turismar
+
+ H100AB:
+      descripcion: H100 - ABTransporte
+      marca: Hiunday
+      modelo: H100
+      ano: 2010
+      matricula: SAY6354
+      capacidad: 12
+      proveedor: ABTransporte
+
+ H100Jorg:
+      descripcion: Peugeot - JorgeTour
+      marca: Hiunday
+      modelo: H100
+      ano: 2000
+      matricula: SAY1028
+      capacidad: 12
+      proveedor: JorgeTour
+
+ MercRyfVans:
+      descripcion: Mercedes - RyfVans
+      marca: Mercedes
+      modelo: J400
+      ano: 2008
+      matricula: SAY7645
+      capacidad: 12
+      proveedor: RyfVans
+# data/fixtures/080_chofer.yml
+chofer:
+  Lucas:
+      nombre: Lucas
+  Sebastian:
+      nombre: Sebastian
+  Ricardo:
+      nombre: Ricardo
+  Mateo:
+      nombre: Mateo
+  Pedro:
+      nombre: Pedro
+  # data/fixtures/040_vehicXzona.yml
+
+
+
+      # data/fixtures/030_pasajeros.yml
+

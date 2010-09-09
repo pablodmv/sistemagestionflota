@@ -1,0 +1,9 @@
+## YAML Template.
+
+gasto:
+  gasto_1:
+    tipoGasto: gasoil
+    vehiculo: H100Jorg
+    fechaGasto: 2010-05-30
+    importe: 2500
+

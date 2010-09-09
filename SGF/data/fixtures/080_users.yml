@@ -1,0 +1,82 @@
+sfguardgroup:
+  Operadores:
+    name: Operadores
+    description: Usuarios Basicos
+  Administradores:
+    name: Admin
+    description: Administradores
+  WAP:
+    name: WAP
+    description: Usuarios WAP
+
+sfguardpermission:
+  Administradores_p:
+    name: admin
+    description: Administradores
+  WAP_p:
+    name: WAP
+    description: Usuarios WAP
+  Operadores_p:
+    name: Operadores
+    description: Usuarios Basicos
+
+sfguardgrouppermission:
+  Admin_g:
+    group_id: Administradores
+    permission_id: Administradores_p
+  WAP_g:
+    group_id: WAP
+    permission_id: WAP_p
+  Operador_g:
+    group_id: Operadores
+    permission_id: Operadores_p
+
+sfguarduser:
+  Admin_u:
+    username: admin
+    password: admin
+  Operador_u:
+    username: operador
+    password: operador
+  WAP_u:
+    username: wap
+    password: wap
+
+sfguardusergroup:
+  Operador_g:
+    user_id: Operador_u
+    group_id: Operadores
+  Admin_g:
+    user_id: Admin_u
+    group_id: Administradores
+  WAP_g:
+    user_id: WAP_u
+    group_id: WAP
+
+
+sfguarduserpermission:
+  Admin_g:
+    user_id: Admin_u
+    permission_id: Administradores_p
+  WAP_g:
+    user_id: WAP_u
+    permission_id: WAP_p
+  Operador_g:
+    user_id: Operador_u
+    permission_id: Operadores_p
+
+
+sfguarduserprofile:
+  Admin_pr:
+    user_id: Admin_u
+    first_name: Administrador
+  Operador_pr:
+    user_id: Operador_u
+    first_name: Operador
+  WAP_pr:
+    user_id: WAP_u
+    first_name: Wap User
+
+
+
+
