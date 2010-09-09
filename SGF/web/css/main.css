@@ -1,0 +1,282 @@
+/* CSS Document */
+
+body{
+    background: url(../images/prinCentro.png) repeat-x;
+    font: 14px "Lucida Sans Unicode";
+    
+}
+
+h2{
+    text-align:center;
+    color:#000066;
+}
+
+
+div{
+    margin: 0px auto;
+    width:960px;
+    text-align:center;
+}
+
+div.contentMenu{
+    margin: 0px auto;
+    background: url(../images/supCentro.png) repeat-x scroll left center transparent;
+    height: 30px;
+    width:960px;
+}
+
+div.contentMenuDer{
+    margin: 0px auto;
+    background: url(../images/supDer.png) no-repeat scroll right top transparent;
+    height: 30px;
+}
+
+div.contentMenuIzq{
+    margin: 0px auto;
+    background: url(../images/supIzq.png) no-repeat scroll left top transparent;
+    height: 30px;
+}
+
+div.contentC{
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.contentC table{
+    margin: 0 auto;
+    text-align: left;
+}
+
+#footer{
+  margin-top: 30px;
+  font-size: 90%;
+  margin-bottom: 0px;
+  /*height: 20px;*/
+  /*background: url(../images/bg-footer.jpg) repeat-x bottom;*/
+  padding-top: 10px;
+  position:absolute;
+  bottom:0;
+  color:#990033;
+}
+
+#pie{
+    padding-top: 30px;
+}
+
+table {
+	font: normal 100%/150% Verdana, Arial, Helvetica, sans-serif;
+/*
+        border-collapse: collapse;
+	border: 3px solid #000066;
+	border-top: 5px double #000066;
+	border-bottom: 5px double #000066;
+
+        width: 500px;
+  */
+  border-bottom: 2px solid #000066;
+    
+}
+th {
+	font: bold 1.1em/120% Verdana, Arial, Helvetica, sans-serif;
+	/*padding: 5px 10px;*/
+	font-variant: small-caps;
+	color: #047;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: -1px;
+}
+thead th {
+	border: 1px solid #87CEFA;
+	white-space: nowrap;
+	background: #F0F8FF;
+}
+
+tbody td  {
+	
+        border-right:  1px solid #999999;
+        border-left:  1px ;
+        border-bottom: 1px solid #999999;
+        width: 450px;
+        
+}
+
+
+tbody th {
+        padding: 5px 10px;
+	background: #fff;
+	color: #047;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 1em;
+}
+tbody tr.odd {
+	border: 1px solid #87CEFA;
+}
+tbody tr.odd td, tbody tr.odd th {
+	background: #F0F8FF;
+}
+tfoot td, tfoot th {
+	border: none;
+	padding-top: 10px;
+        background-color: #89B5C6;
+}
+caption {
+	font-family: "Georgia", serif;
+	letter-spacing: 5px;
+	font-style: italic;
+	text-align: left;
+	text-indent: 2em;
+	text-transform: uppercase;
+	font-size: 150%;
+	padding: 10px 0;
+	color: #047;
+}
+table a:link {
+	color: #DC143C;
+}
+table th a:link {
+	color: #047;
+	text-decoration: none;
+}
+table a:visited{
+	color: #036;
+	
+}
+table a:hover{
+	color: #000;
+	text-decoration:none;
+}
+table a:active{
+	color: #000;
+}
+/*
+#btnNuevo {
+    text-align: center;
+    margin-left: 430px;
+    margin-top: 15px;
+}
+#btnNuevo a
+{
+  display: block;
+ background: url(../images/button-post.jpg);
+  text-indent: -9999px;
+  width: 150px;
+  height: 48px;
+  
+
+}
+
+#btnNuevo a:hover
+{
+  background-position: left -50px;
+}
+
+#btnNuevo a:active
+{
+  background-position: left -100px;
+}
+*/
+input {
+    height: 20px;
+    width: 240px;
+}
+
+
+.checkbox {
+    height: 5px;
+	width: 5px;
+        margin-left: 25px;
+}
+
+
+.guardar{
+    width: 100px;
+    height: 30px;
+
+}
+
+
+/* Factura */
+
+.tdLabelCabFact {
+    width: 18px;
+    text-align: right;
+    border-right: none;
+}
+
+.tdLabelPieFact {
+     width: 12px;
+    text-align: right;
+    border-right: none;
+}
+
+.tdFactLinea{
+    border-right: none;
+
+}
+
+.tdFactValor {
+    width: 5px;
+    text-align: right;
+   
+}
+.tdlbFactValor {
+    width: 5px;
+    text-align: left;
+     font-weight: bold;
+     background-color: gray;
+}
+
+.tdlbremito{
+    font-weight: bold;
+    font-size: small;
+    background-color: #BDBDBD;
+    border-color: #BDBDBD;
+    
+}
+.tdFactValorCab {
+    width: 5px;
+}
+
+#facturaLB{
+    font-weight: bold;
+    text-align: center;
+}
+
+#pie{
+    text-align: left;
+}
+#user {
+    
+    font-weight: bold;
+}
+#nombreUser{
+    text-transform:uppercase;
+    
+}
+.datosfoot{
+    font-size: small;
+}
+
+#tdAccion {
+    width: 800px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#tblOrden {
+    font: normal 85%/100% Verdana, Arial, Helvetica, sans-serif;
+    width: 800px;
+}
+#tdRemitos {
+    text-align: center;
+    font-weight: bold;
+}
+.tdvacio {
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
+
+#tdTotalFechaFactura {
+    text-align: center;
+}

@@ -1,0 +1,305 @@
+/* 
+    Document   : menu
+    Created on : 07/05/2010, 08:24:30 PM
+    Author     : Gustavo Leites
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+#menu{
+    text-align:center;
+    margin: 0px auto;
+    width:650px;
+    position: relative;
+    z-index: 100;
+
+}
+
+.divMenu{
+    text-align:center;
+    margin: 0px auto;
+    width:650px;
+}
+
+.menu {
+    list-style:none;
+    text-align:center;
+    width:750px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left:inherit;
+}
+
+.menu li {
+/*margin:1px;*/
+margin-top:8px;
+padding:0;
+border:1px solid #CCCCCC;
+float:left;
+}
+
+.menu li a {
+display:block;
+width:100px;
+height: 17px;
+/*padding:1px 0;*/
+text-decoration:none;
+text-align:center;
+font-size:11px;
+color:#FFFFFF;
+background-color:#646464;
+}
+
+.menu li a:hover {
+color:#FFFFFF;
+background-color:#000066;
+cursor:pointer;
+}
+
+/*Menu desplegable aquí*/
+
+/*Primer Desplegable */
+.divMenu1{
+  /*width:100px;
+  position:absolute;
+  top:25px;
+  left:0px;*/
+    visibility:hidden;
+    text-align:left;
+    position:absolute;
+    margin: 0px auto;
+    width:100px;
+}
+
+.menu1 {
+    list-style:none;
+    text-align:left;
+    width:100px;
+    margin-top: 26px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    position: relative;
+    z-index: 2000;
+}
+
+.menu1 li {
+    padding:0;
+    border:1px solid #CCCCCC;
+}
+
+.menu1 li a {
+display:block;
+width:100px;
+padding:0;
+text-decoration:none;
+text-align:center;
+font-size:11px;
+color:#FFFFFF;
+background-color:#646464;
+}
+
+.menu1 li a:hover {
+color:#FFFFFF;
+background-color:#000066;
+cursor:pointer;
+}
+
+/*Segundo Desplegable */
+
+.divMenu2{
+  /*width:100px;
+  position:absolute;
+  top:25px;
+  left:0px;*/
+    visibility:hidden;
+    text-align:left;
+    position:absolute;
+    margin-left: 102px;/*cambiar esta propiedad para ubicar el submenu*/
+    width:100px;
+}
+
+.menu2 {
+    list-style:none;
+    text-align:left;
+    width:100px;
+    margin-top: 26px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    position: relative;
+    z-index: 2000;
+}
+
+.menu2 li {
+    padding:0;
+    border:1px solid #CCCCCC;
+}
+
+.menu2 li a {
+display:block;
+width:100px;
+padding:0;
+text-decoration:none;
+text-align:center;
+font-size:11px;
+color:#FFFFFF;
+background-color:#646464;
+}
+
+.menu2 li a:hover {
+color:#FFFFFF;
+background-color:#000066;
+cursor:pointer;
+}
+
+/*Tercer Desplegable */
+
+.divMenu3{
+  /*width:100px;
+  position:absolute;
+  top:25px;
+  left:0px;*/
+    visibility:hidden;
+    text-align:left;
+    position:absolute;
+    margin-left: 204px;/*cambiar esta propiedad para ubicar el submenu*/
+    width:100px;
+}
+
+.menu3 {
+    list-style:none;
+    text-align:left;
+    width:100px;
+    margin-top: 26px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    position: relative;
+    z-index: 2000;
+}
+
+.menu3 li {
+    padding:0;
+    border:1px solid #CCCCCC;
+}
+
+.menu3 li a {
+display:block;
+width:100px;
+padding:0;
+text-decoration:none;
+text-align:center;
+font-size:11px;
+color:#FFFFFF;
+background-color:#646464;
+}
+
+.menu3 li a:hover {
+color:#FFFFFF;
+background-color:#000066;
+cursor:pointer;
+}
+
+
+/*Cuarto Desplegable */
+
+.divMenu4{
+  /*width:100px;
+  position:absolute;
+  top:25px;
+  left:0px;*/
+    visibility:hidden;
+    text-align:left;
+    position:absolute;
+    margin-left: 306px;/*cambiar esta propiedad para ubicar el submenu*/
+    width:100px;
+}
+
+.menu4 {
+    list-style:none;
+    text-align:left;
+    width:100px;
+    margin-top: 26px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    position: relative;
+    z-index: 2000;
+}
+
+.menu4 li {
+    padding:0;
+    border:1px solid #CCCCCC;
+}
+
+.menu4 li a {
+display:block;
+width:100px;
+padding:0;
+text-decoration:none;
+text-align:center;
+font-size:11px;
+color:#FFFFFF;
+background-color:#646464;
+}
+
+.menu4 li a:hover {
+color:#FFFFFF;
+background-color:#000066;
+cursor:pointer;
+}
+
+
+/*Quinto Desplegable */
+
+.divMenu5{
+  /*width:100px;
+  position:absolute;
+  top:25px;
+  left:0px;*/
+    visibility:hidden;
+    text-align:left;
+    position:absolute;
+    margin-left: 408px;/*cambiar esta propiedad para ubicar el submenu*/
+    width:100px;
+}
+
+.menu5 {
+    list-style:none;
+    text-align:left;
+    width:100px;
+    margin-top: 26px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    position: relative;
+    z-index: 2000;
+}
+
+.menu5 li {
+    padding:0;
+    border:1px solid #CCCCCC;
+}
+
+.menu5 li a {
+display:block;
+width:100px;
+padding:0;
+text-decoration:none;
+text-align:center;
+font-size:11px;
+color:#FFFFFF;
+background-color:#646464;
+}
+
+.menu5 li a:hover {
+color:#FFFFFF;
+background-color:#000066;
+cursor:pointer;
+}
