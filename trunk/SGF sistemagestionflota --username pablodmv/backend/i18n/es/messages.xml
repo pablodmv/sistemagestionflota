@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2010-07-29T11:03:58Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Chofer Admin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Editar Chofer "%%nombre%%"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Nueva Chofer</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Cliente Admin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Editar Cliente "%%nombre%%"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Nuevo Cliente</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Localidad Admin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Editar Localidad "%%nombre%%"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Nueva Localidad</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Moneda Admin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Editar Moneda "%%moneda%%"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Nueva Moneda</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Proveedor Admin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Editar Proveedor "%%nombre%%"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Nuevo Proveedor</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>No tiene permiso para ver la pagina solicitada.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Tarifa Admin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Editar Tarifa "%%descripcion%%"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Nueva Proveedor</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Tipo de Gasto Admin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Editar Tipo Gasto "%%descripcion%%"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Vehículo Admin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Editar Vehículo "%%descripcion%%"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Nuevo Vehículo</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Zona Admin</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Editar Zona "%%descripcion%%"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Nueva Zona</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
