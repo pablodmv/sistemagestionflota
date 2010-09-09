@@ -1,0 +1,32 @@
+## YAML Template.
+cliente:
+  ORT:
+    nombre: Universidad ORT
+    razon_soc: ORT Inc
+    rut: 2115643560019
+    direccion: cuareim 1500
+    telefono: 9000000
+    celular: 099000000
+    mail: ort@ort.edu.uy
+    es_empresa: true
+  MinisterioDef:
+    nombre: Ministerio General
+    razon_soc: Presidencia SRL
+    rut: 2115643560034
+    direccion: Rincon 534
+    telefono: 9021599
+    celular: 099309087
+    mail: ministerio@presidencia.gub.uy
+    es_empresa: true
+  Pasteur:
+    nombre: Hospital Pasteur
+    razon_soc: Pasteur SA
+    rut: 0095643560019
+    direccion: Larravide S/N
+    telefono: 5088131
+    celular: 099508813
+    mail: pasteur@pasteur.com.uy
+    es_empresa: true
+
+
+

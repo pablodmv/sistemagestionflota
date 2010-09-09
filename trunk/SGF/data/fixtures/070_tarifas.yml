@@ -1,0 +1,13 @@
+## YAML Template.
+tarifa:
+  tarifa_1:
+    descripcion: Km
+    valor: 17
+
+  tarifa_2:
+    descripcion: Hora
+    valor: 100
+
+  tarifa_3:
+    descripcion: Traslado
+    valor: 150

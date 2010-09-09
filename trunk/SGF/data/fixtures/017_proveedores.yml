@@ -1,0 +1,47 @@
+## YAML Template.
+proveedor:
+
+  Turismar:
+    nombre: Turismar
+    razon_soc: Turismo SRL
+    rut: 2115648880099
+    direccion: Canelones 1027
+    telefono: 4087654
+    celular: 099408765
+    mail: ricoleso@ricoleso.tp
+    es_empresa: true
+    
+  RyfVans:
+    nombre: RyfVans
+    razon_soc: Camionetas SRL
+    rut: 2115643560010
+    direccion: cuareim 900
+    telefono: 9000001
+    celular: 099000000
+    mail: camionetas@ABTransporte.com.uy
+    es_empresa: true
+
+  
+
+  ABTransporte:
+    nombre: ABTransporte
+    razon_soc: Camionetas SRL
+    rut: 2115643560010
+    direccion: cuareim 900
+    telefono: 9000001
+    celular: 099000000
+    mail: camionetas@ABTransporte.com.uy
+    es_empresa: true
+
+  JorgeTour:
+    nombre: JorgeTour
+    razon_soc: Georges SA
+    rut: 2115648760010
+    direccion: 18 de julio 678
+    telefono: 9245678
+    celular: 099924567
+    mail: jorge@jorgetour.org
+    es_empresa: true
+    
+ 
+  

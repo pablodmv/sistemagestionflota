@@ -1,0 +1,20 @@
+## YAML Template.
+moneda:
+  Pesos:
+    numref: 1
+    moneda: Pesos
+    tipocambio: 1
+  Dolares:
+    numref: 2
+    moneda: Dolar
+    tipocambio: 20.34
+
+parametros:
+  IVA:
+     numref: 1
+     nombre: IVA
+     valor: 22
+  NUMFAC:
+     numref: 2
+     nombre: NUMFAC
+     valor: 13
