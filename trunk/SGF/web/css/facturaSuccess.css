@@ -1,0 +1,23 @@
+/* 
+    Document   : facturaSuccess
+    Created on : 30/05/2010, 05:24:42 PM
+    Author     : Gustavo Leites
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#tblFactura{
+    font: normal 85%/100% Verdana, Arial, Helvetica, sans-serif;
+    width: 300px;
+}
+
+

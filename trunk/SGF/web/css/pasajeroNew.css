@@ -1,0 +1,20 @@
+/* 
+    Document   : pasajeroNew
+    Created on : 11/05/2010, 09:29:10 PM
+    Author     : Gustavo Leites
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#contentNew{
+overflow: hidden;
+width: 900px;
+border: 1px solid #bbb;
+padding: 10px;
+background:#DDDDDD;
+}
