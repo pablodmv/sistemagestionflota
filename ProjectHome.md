@@ -1,0 +1,1 @@
+SGF o Sistema de Gestion de Flota intenta cubrir las necesidades de una empresa de transporte en cuanto a organización y gestión de los trabajos. Esta realizado en PHP con el framework Symfony (www.symfony.es) y esta en pleno desarrollo.
